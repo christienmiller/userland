@@ -31,6 +31,6 @@ target_link_libraries(raspistill ${MMAL_LIBS} vcos bcm_host GLESv2 EGL m)
 target_link_libraries(raspiyuv   ${MMAL_LIBS} vcos bcm_host)
 target_link_libraries(raspivid   ${MMAL_LIBS} vcos bcm_host)
 target_link_libraries(raspividyuv   ${MMAL_LIBS} vcos bcm_host)
-target_link_libraries(raspiraw   ${MMAL_LIBS} vcos bcm_host wiringPi)
+target_link_libraries(raspiraw   ${MMAL_LIBS} vcos bcm_host)
 
 install(TARGETS raspistill raspiyuv raspivid raspividyuv raspiraw RUNTIME DESTINATION bin)
